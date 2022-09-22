@@ -1,0 +1,23 @@
+{
+  "name": "e-magaz2",
+  "version": "1.0.0",
+  "description": "e-magaz2 practice",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch src/style.scss public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Titech0/e-market2.git"
+  },
+  "author": "Titech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Titech0/e-market2/issues"
+  },
+  "homepage": "https://github.com/Titech0/e-market2#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

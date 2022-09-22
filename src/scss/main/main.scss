@@ -1,0 +1,22 @@
+.main {
+	display: flex;
+	width: 100%;
+	font-family: 'Roboto';
+	justify-content: center;
+	flex-direction: column;
+}
+.ContentContainer {
+	align-self: center;
+	div.defaultElemStyle{
+		margin-top: 20px;
+	}
+}
+.mainContentPanel {
+	display: flex;
+	position: relative;
+	max-height: 600px;
+	div.defaultElemStyle{
+		margin-left: 20px;
+	}
+
+}

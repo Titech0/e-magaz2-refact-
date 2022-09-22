@@ -1,0 +1,50 @@
+.middleContainer {
+	display: flex;
+	flex-direction: column;
+	.banner{
+		max-width: 820px;
+		max-height: 375px;
+		height: 100%;
+
+		img
+		{
+			height: 100%;
+		}
+	}
+
+	.topRankings {
+		display: flex;
+		max-height: 175px;
+		background-color: #F7931E;
+		.infoSection {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 100%;
+			max-width: 175px;
+			flex: 1;
+			padding: 5px 0 5px 20px;
+			span {
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 28px;
+			}
+
+			button {
+				width: fit-content;
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 21px;
+				background-color: transparent;
+				color: rgb(255, 255, 255);
+				&:hover{
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+
+	
+}
+
