@@ -415,7 +415,14 @@ header {
   font-size: 24px;
   line-height: 28px;
 }
-.bestChoices .roundedButtons:hover {
+.bestChoices img:hover {
+  cursor: pointer;
+}
+.bestChoices .roundedButtons button {
+  width: 15px;
+  height: 15px;
+}
+.bestChoices .roundedButtons button:hover {
   cursor: pointer;
 }
 
