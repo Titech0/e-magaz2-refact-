@@ -10,7 +10,12 @@
 		{
 			height: 100%;
 		}
+
+		&:hover{
+			cursor: pointer;
+		}
 	}
+
 
 	.topRankings {
 		display: flex;

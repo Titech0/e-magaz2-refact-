@@ -14,5 +14,18 @@
 	border: 0px solid;
 	border-radius: 10px;
 	overflow: hidden;
-	background-color: #ffffff;
+	background-color: #fff;
+}
+
+.cardDefaultStyle {
+	&:hover {
+		cursor: pointer;
+		border-color: #797979;
+	}
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-top: none;
+	border-bottom: none;
+	transition: all 0.2s;
+
 }

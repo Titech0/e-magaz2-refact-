@@ -19,6 +19,7 @@
 	li {
 		padding-left: 20px;
 	}
+
 }
 
 .listElem{
@@ -40,6 +41,13 @@
 	&:hover{
 		cursor: pointer;
 	}
+
+	& + :not(:first-child):hover
+	{
+		background-color: #ececec;
+		transition: all 0.1s;
+	}
+
 }
 .categoriesLabel {
 	background-color: #D9D9D9;

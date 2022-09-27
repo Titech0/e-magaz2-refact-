@@ -57,7 +57,7 @@ button,
 textarea,
 select {
   font: inherit;
-  border: 0;
+  border: none;
   padding: 0;
 }
 
@@ -77,7 +77,19 @@ select {
   border: 0px solid;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #fff;
+}
+
+.cardDefaultStyle {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-top: none;
+  border-bottom: none;
+  transition: all 0.2s;
+}
+.cardDefaultStyle:hover {
+  cursor: pointer;
+  border-color: #797979;
 }
 
 .separatorDecor {
@@ -151,6 +163,9 @@ header {
   margin: 0 60px 0 80px;
   max-width: 630px;
 }
+.logo:hover {
+  cursor: pointer;
+}
 
 .searchBarContainer {
   display: flex;
@@ -190,6 +205,7 @@ header {
   height: 100%;
   justify-content: center;
   outline: none;
+  border: none;
 }
 .searchBar button:hover {
   cursor: pointer;
@@ -289,6 +305,10 @@ header {
 .listElem:hover {
   cursor: pointer;
 }
+.listElem + :not(:first-child):hover {
+  background-color: #ececec;
+  transition: all 0.1s;
+}
 
 .categoriesLabel {
   background-color: #D9D9D9;
@@ -309,6 +329,9 @@ header {
 }
 .middleContainer .banner img {
   height: 100%;
+}
+.middleContainer .banner:hover {
+  cursor: pointer;
 }
 .middleContainer .topRankings {
   display: flex;
@@ -392,6 +415,10 @@ header {
   font-size: 24px;
   line-height: 28px;
 }
+.bestChoices .roundedButtons:hover {
+  cursor: pointer;
+}
+
 .ultraDealsContainer {
   display: flex;
   padding-left: 40px;
