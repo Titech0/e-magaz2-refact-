@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/public/style.css">
 
-	<title>Document</title>
+	<title>Dog shop</title>
 </head>
 
 <body>
@@ -39,8 +39,8 @@
 					<img class="logo" src="/src/img/Header/logo.svg">
 					<div class="searchBarContainer">
 						<div class="searchBar">
-							<input placeholder="doge smol">
-							<button>
+							<input class= "headerSearchBarDefaultStyle" placeholder="doge smol">
+							<button class= "headerSearchBarDefaultStyle">
 								<img src="/src/img/Header/searchIcon.svg">
 							</button>
 						</div>
@@ -59,58 +59,50 @@
 			<div class="ContentContainer">
 				<div class="mainContentPanel">
 					<div class="categories">
+						<div class="listElemStyle categoriesLabel">
+							<img src="/src/img/main/categories/categoriesIcon.svg">
+							<span>Categories</span>
+						</div>
 						<ul class="categoriesList">
-							<div class="listElem categoriesLabel">
-								<img src="/src/img/main/categories/categoriesIcon.svg">
-								<span>Categories</span>
-							</div>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 1</span>
 							</li>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 2</span>
 							</li>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 3</span>
 							</li>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 4</span>
 							</li>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 5</span>
 							</li>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 6</span>
 							</li>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 7</span>
 							</li>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 8</span>
 							</li>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 9</span>
 							</li>
-							<li class="listElem">
+							<li class="listElemStyle">
 								<img src="/src/img/main/categories/categoryIcon.svg">
 								<span>Category 10</span>
-							</li>
-							<li class="listElem">
-								<img src="/src/img/main/categories/categoryIcon.svg">
-								<span>Category 11</span>
-							</li>
-							<li class="listElem">
-								<img src="/src/img/main/categories/categoryIcon.svg">
-								<span>Category 12</span>
 							</li>
 						</ul>
 					</div>
@@ -174,13 +166,13 @@
 							<img src="/src/img/main/Bestseller banner 1.jpg">
 							<div class="roundedButtons">
 								<button>
-									<img src="/src/img/main/bestSeller/activeButton.svg">
+									<img class="roundedButtonSVG" src="/src/img/main/bestSeller/inactiveButton.svg">
 								</button>
 								<button>
-									<img src="/src/img/main/bestSeller/inactiveButton.jpg">
+									<img class="roundedButtonSVG" src="/src/img/main/bestSeller/inactiveButton.svg">
 								</button>
 								<button>
-									<img src="/src/img/main/bestSeller/inactiveButton.jpg">
+									<img class="roundedButtonSVG" src="/src/img/main/bestSeller/inactiveButton.svg">
 								</button>
 							</div>
 						</div>
@@ -198,149 +190,115 @@
 
 
 
-<div class="dealsElements">
+					<div class="dealsElements">
+						<!-- max elements = 5 -->
+						<div class="cardsRow">
+							<button class="cardDefaultStyle dealsElement">
+									<img src="/src/img/main/ultraDeals/Doggo 1.png">
+									<div class="productInfo">
+										<span class="productName">
+											Doggo
+										</span>
+										<div class="productPrice">
+											<span>0,8</span>
+											<span class="currency">DOGE<br>COIN</span>
+										</div>
+									</div>
+							</button>
+	
+							<button class="cardDefaultStyle dealsElement">
+									<img src="/src/img/main/ultraDeals/DoggoSwag 1.png">
+									<div class="productInfo">
+										<span class="productName">
+											Doggo Swag
+										</span>
+										<div class="productPrice">
+											<span>7,12</span>
+											<span class="currency">DOGE<br>COIN</span>
+										</div>
+									</div>
+							</button>
+	
+							<button class="cardDefaultStyle dealsElement">
+									<img src="/src/img/main/ultraDeals/FatDoggo 1.png">
+									<div class="productInfo">
+										<span class="productName">
+											Fat Doggo
+										</span>
+										<div class="productPrice">
+											<span>3,48</span>
+											<span class="currency">DOGE<br>COIN</span>
+										</div>
+									</div>
+							</button class="cardDefaultStyle">
+	
+							<button class="cardDefaultStyle dealsElement">
+									<img src="/src/img/main/ultraDeals/FatDoggoSwag 1.png">
+									<div class="productInfo">
+										<span class="productName">
+											Fat Doggo Swag
+										</span>
+										<div class="productPrice">
+											<span>6</span>
+											<span class="currency">DOGE<br>COIN</span>
+										</div>
+									</div>
+							</button>
+	
+							<button class="cardDefaultStyle dealsElement">
+									<img src="/src/img/main/ultraDeals/Cheems 1.png">
+									<div class="productInfo">
+										<span class="productName">
+											Cheems
+										</span>
+										<div class="productPrice">
+											<span>3,52</span>
+											<span class="currency">DOGE<br>COIN</span>
+										</div>
+									</div>
+							</button>
+						</div>
 
-<button class="cardDefaultStyle">
-	<div class="dealsElement">
-		<img src="/src/img/main/ultraDeals/doublePack.jpg">
-		<div class="productInfo">
-			<span class="productName">
-				Double pack
-			</span>
-			<div class="productPrice">
-				<span>2</span>
-				<span class="currency">DOGE<br>COIN</span>
-			</div>
-		</div>
-	</div>
-</button>
+						<button class="cardDefaultStyle dealsElement">
+								<img src="/src/img/main/ultraDeals/Doggo Bonker 1.png">
+								<div class="productInfo">
+									<span class="productName">
+										Doge Bonk
+									</span>
+									<div class="productPrice">
+										<span>11</span>
+										<span class="currency">DOGE<br>COIN</span>
+									</div>
+								</div>
+						</button>
 
+						<button class="cardDefaultStyle dealsElement">
+								<img src="/src/img/main/ultraDeals/Doggo Bonked 2.png">
+								<div class="productInfo">
+									<span class="productName">
+										Bonked Doge
+									</span>
+									<div class="productPrice">
+										<span>0,92</span>
+										<span class="currency">DOGE<br>COIN</span>
+									</div>
+								</div>
+						</button>
 
-<button class="cardDefaultStyle">
-	<div class="dealsElement">
-		<img src="/src/img/main/ultraDeals/Doggo 1.png">
-		<div class="productInfo">
-			<span class="productName">
-				Doggo
-			</span>
-			<div class="productPrice">
-				<span>0,8</span>
-				<span class="currency">DOGE<br>COIN</span>
-			</div>
-		</div>
-	</div>
-</button>
-
-<button class="cardDefaultStyle">
-	<div class="dealsElement">
-		<img src="/src/img/main/ultraDeals/DoggoSwag 1.png">
-		<div class="productInfo">
-			<span class="productName">
-				Doggo Swag
-			</span>
-			<div class="productPrice">
-				<span>7,12</span>
-				<span class="currency">DOGE<br>COIN</span>
-			</div>
-		</div>
-	</div>
-</button>
-
-<button class="cardDefaultStyle">
-	<div class="dealsElement">
-		<img src="/src/img/main/ultraDeals/FatDoggo 1.png">
-		<div class="productInfo">
-			<span class="productName">
-				Fat Doggo
-			</span>
-			<div class="productPrice">
-				<span>3,48</span>
-				<span class="currency">DOGE<br>COIN</span>
-			</div>
-		</div>
-	</div>
-</button class="cardDefaultStyle">
-
-<button class="cardDefaultStyle">
-	<div class="dealsElement">
-		<img src="/src/img/main/ultraDeals/FatDoggoSwag 1.png">
-		<div class="productInfo">
-			<span class="productName">
-				Fat Doggo Swag
-			</span>
-			<div class="productPrice">
-				<span>6</span>
-				<span class="currency">DOGE<br>COIN</span>
-			</div>
-		</div>
-	</div>
-</button>
-
-<button class="cardDefaultStyle">
-	<div class="dealsElement">
-		<img src="/src/img/main/ultraDeals/Cheems 1.png">
-		<div class="productInfo">
-			<span class="productName">
-				Cheems
-			</span>
-			<div class="productPrice">
-				<span>3,52</span>
-				<span class="currency">DOGE<br>COIN</span>
-			</div>
-		</div>
-	</div>
-</button>
-
-<button class="cardDefaultStyle">
-	<div class="dealsElement">
-		<img src="/src/img/main/ultraDeals/Doggo Bonker 1.png">
-		<div class="productInfo">
-			<span class="productName">
-				Doge Bonk
-			</span>
-			<div class="productPrice">
-				<span>11</span>
-				<span class="currency">DOGE<br>COIN</span>
-			</div>
-		</div>
-	</div>
-</button>
-
-<button class="cardDefaultStyle">
-	<div class="dealsElement">
-		<img src="/src/img/main/ultraDeals/Doggo Bonked 2.png">
-		<div class="productInfo">
-			<span class="productName">
-				Bonked Doge
-			</span>
-			<div class="productPrice">
-				<span>0,92</span>
-				<span class="currency">DOGE<br>COIN</span>
-			</div>
-		</div>
-	</div>
-</button>
-
-<button class="cardDefaultStyle">
-	<div class="dealsElement">
-		<img src="/src/img/main/ultraDeals/Professional Dogge 1.png">
-		<div class="productInfo">
-			<span class="productName">
-				Professional Doge
-			</span>
-			<div class="productPrice">
-				<span>14,2</span>
-				<span class="currency">DOGE<br>COIN</span>
-			</div>
-		</div>
-	</div>
-</button>
-</div>
-</button>
-
-
-			</div>
-
+						<button class="cardDefaultStyle dealsElement">
+								<img src="/src/img/main/ultraDeals/Professional Dogge 1.png">
+								<div class="productInfo">
+									<span class="productName">
+										Professional Doge
+									</span>
+									<div class="productPrice">
+										<span>14,2</span>
+										<span class="currency">DOGE<br>COIN</span>
+									</div>
+								</div>
+						</button>
+					</div>
+				</div>
 		</main>
 		<footer class="footer">Footer</footer>
 	</div>

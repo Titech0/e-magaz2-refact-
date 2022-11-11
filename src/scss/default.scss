@@ -18,14 +18,21 @@
 }
 
 .cardDefaultStyle {
+	display: flex;
+	background-color: transparent;
+	border-bottom: none;
+	transition: all 0.2s ease;
 	&:hover {
 		cursor: pointer;
-		border-color: #797979;
+		transform: translateY(-3.5%)
 	}
-	background-color: transparent;
-	border: 1px solid #fff;
-	border-top: none;
-	border-bottom: none;
-	transition: all 0.2s;
+}
 
+
+
+//!header defaults
+
+.headerSearchBarDefaultStyle {
+	border: 4px solid #F8A03A;
+	opacity: 0.8;
 }

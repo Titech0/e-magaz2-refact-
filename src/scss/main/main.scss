@@ -1,3 +1,5 @@
+
+
 .main {
 	display: flex;
 	width: 100%;
@@ -6,7 +8,8 @@
 	flex-direction: column;
 }
 .ContentContainer {
-	align-self: center;
+	align-self: center; 
+	margin: 0px 20px 0px 20px;
 	div.defaultElemStyle{
 		margin-top: 20px;
 	}
@@ -20,5 +23,4 @@
 	div.defaultElemStyle{
 		margin-left: 20px;
 	}
-
 }
